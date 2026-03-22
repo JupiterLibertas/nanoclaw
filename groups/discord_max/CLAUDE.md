@@ -11,3 +11,11 @@ Your section of the Obsidian vault is mounted at `/workspace/extra/vault`. You c
 - Organise with subfolders as needed
 - When the user says "note this", "remember this in my vault", or similar — write it to `/workspace/extra/vault`
 - When the user asks about past notes, search `/workspace/extra/vault` with `grep -r` or `ls`
+
+## Shared Vault
+
+A shared folder is mounted at `/workspace/extra/shared`. Both you and Andy can read and write here.
+
+- Use it for notes, insights, or context that should be visible to both agents
+- When the user asks you to share something with Andy, write it to `/workspace/extra/shared`
+- Check `/workspace/extra/shared` when answering questions that might benefit from Andy's context
