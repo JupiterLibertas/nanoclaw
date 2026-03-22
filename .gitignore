@@ -13,10 +13,16 @@ logs/
 groups/*
 !groups/main/
 !groups/global/
+!groups/discord_nanoclaw/
+!groups/discord_max/
 groups/main/*
 groups/global/*
+groups/discord_nanoclaw/*
+groups/discord_max/*
 !groups/main/CLAUDE.md
 !groups/global/CLAUDE.md
+!groups/discord_nanoclaw/CLAUDE.md
+!groups/discord_max/CLAUDE.md
 
 # Secrets
 *.keys.json
